@@ -13,3 +13,20 @@
 {"level":"info","message":"undefined - API Server Start At Port 3000","timestamp":"2023-03-24 10:50:41"}
 {"level":"info","message":"undefined - API Server Start At Port 3000","timestamp":"2023-03-24 10:51:02"}
 {"level":"info","message":"undefined - API Server Start At Port 3000","timestamp":"2023-03-24 10:53:04"}
+{"level":"info","message":"undefined - API Server Start At Port 3000","timestamp":"2023-03-24 14:36:53"}
+{"level":"error","message":"createUsers Query error\n: {\"message\":\"Field 'idxusers' doesn't have a default value\",\"code\":\"ER_NO_DEFAULT_FOR_FIELD\",\"errno\":1364,\"sql\":\"insert into users(userID, password, nickname) values ('tmaxtmax','pppwwwddd1111','tmx');\",\"sqlState\":\"HY000\",\"sqlMessage\":\"Field 'idxusers' doesn't have a default value\"}","timestamp":"2023-03-24 14:38:12"}
+{"level":"info","message":"undefined - API Server Start At Port 3000","timestamp":"2023-03-24 14:38:54"}
+{"level":"error","message":"createUsers Query error\n: {\"message\":\"Field 'idxusers' doesn't have a default value\",\"code\":\"ER_NO_DEFAULT_FOR_FIELD\",\"errno\":1364,\"sql\":\"insert into users(userid, password, nickname) values ('tmaxtmax','pppwwwddd1111','tmx');\",\"sqlState\":\"HY000\",\"sqlMessage\":\"Field 'idxusers' doesn't have a default value\"}","timestamp":"2023-03-24 14:38:57"}
+{"level":"info","message":"undefined - API Server Start At Port 3000","timestamp":"2023-03-24 14:39:03"}
+{"level":"error","message":"createUsers Query error\n: {\"message\":\"Field 'idxusers' doesn't have a default value\",\"code\":\"ER_NO_DEFAULT_FOR_FIELD\",\"errno\":1364,\"sql\":\"insert into users(userid, password, nickname) values ('tmaxtmax','pppwwwddd1111','tmx');\",\"sqlState\":\"HY000\",\"sqlMessage\":\"Field 'idxusers' doesn't have a default value\"}","timestamp":"2023-03-24 14:39:06"}
+{"level":"info","message":"undefined - API Server Start At Port 3000","timestamp":"2023-03-24 15:15:05"}
+{"level":"info","message":"undefined - API Server Start At Port 3000","timestamp":"2023-03-24 15:16:12"}
+{"level":"info","message":"undefined - API Server Start At Port 3000","timestamp":"2023-03-24 15:17:32"}
+{"level":"info","message":"undefined - API Server Start At Port 3000","timestamp":"2023-03-24 15:18:16"}
+{"level":"info","message":"undefined - API Server Start At Port 3000","timestamp":"2023-03-24 15:19:04"}
+{"level":"info","message":"undefined - API Server Start At Port 3000","timestamp":"2023-03-24 15:29:39"}
+{"level":"info","message":"undefined - API Server Start At Port 3000","timestamp":"2023-03-24 15:34:33"}
+{"level":"info","message":"undefined - API Server Start At Port 3000","timestamp":"2023-03-24 15:34:35"}
+{"level":"info","message":"undefined - API Server Start At Port 3000","timestamp":"2023-03-24 15:34:36"}
+{"level":"info","message":"undefined - API Server Start At Port 3000","timestamp":"2023-03-24 15:37:30"}
+{"level":"info","message":"undefined - API Server Start At Port 3000","timestamp":"2023-03-24 18:26:55"}

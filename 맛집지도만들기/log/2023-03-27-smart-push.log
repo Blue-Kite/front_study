@@ -1,0 +1,14 @@
+{"level":"info","message":"undefined - API Server Start At Port 3000","timestamp":"2023-03-27 09:53:25"}
+{"level":"error","message":"레스토랑 조회 DB Connection error\n: {\"errno\":-4078,\"code\":\"ECONNREFUSED\",\"syscall\":\"connect\",\"address\":\"15.165.145.86\",\"port\":3306,\"fatal\":true}","timestamp":"2023-03-27 09:54:12"}
+{"level":"info","message":"undefined - API Server Start At Port 3000","timestamp":"2023-03-27 09:54:28"}
+{"level":"info","message":"undefined - API Server Start At Port 3000","timestamp":"2023-03-27 11:16:12"}
+{"level":"info","message":"undefined - API Server Start At Port 3000","timestamp":"2023-03-27 11:19:12"}
+{"level":"info","message":"undefined - API Server Start At Port 3000","timestamp":"2023-03-27 11:25:48"}
+{"level":"info","message":"undefined - API Server Start At Port 3000","timestamp":"2023-03-27 11:43:59"}
+{"level":"info","message":"undefined - API Server Start At Port 3000","timestamp":"2023-03-27 11:46:26"}
+{"level":"info","message":"undefined - API Server Start At Port 3000","timestamp":"2023-03-27 11:46:50"}
+{"level":"info","message":"undefined - API Server Start At Port 3000","timestamp":"2023-03-27 13:28:43"}
+{"level":"info","message":"undefined - API Server Start At Port 3000","timestamp":"2023-03-27 13:36:15"}
+{"level":"info","message":"undefined - API Server Start At Port 3000","timestamp":"2023-03-27 13:36:25"}
+{"level":"info","message":"undefined - API Server Start At Port 3000","timestamp":"2023-03-27 13:36:49"}
+{"level":"info","message":"undefined - API Server Start At Port 3000","timestamp":"2023-03-27 13:37:05"}

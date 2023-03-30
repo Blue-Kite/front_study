@@ -23,7 +23,27 @@ var map = new kakao.maps.Map(container, options); //지도 생성 및 객체 리
 var zoomControl = new kakao.maps.ZoomControl();
 map.addControl(zoomControl, kakao.maps.ControlPosition.RIGHT);
 
-//2. 
+//2. 더미데이터 
+/*
+const dataset = [{
+    title: "포크너",
+    address: "경기 성남시 분당구 정자일로 21 1층",
+    url: "https://www.instagram.com/forkner_bundang/",
+    category: "양식",
+},
+{
+    title: "행하령수제비",
+    address: "경기 성남시 분당구 성남대로144번길 14",
+    url: "x",
+    category: "한식",
+},
+{
+    title: "스시다이닝준 분당점",
+    address: "경기 성남시 분당구 성남대로 151 헤리츠상가 2층",
+    url: "x",
+    category: "일식",
+}]*/
+
 //서버에서 데이터를 불러오기 
 async function getDataSet(category) {
   //만약 category를 정하지 않으면 통으로 다가져옴 

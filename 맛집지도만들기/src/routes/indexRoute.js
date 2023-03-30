@@ -18,5 +18,12 @@ module.exports = function (app) {
   app.post("/res", index.createres);
   app.patch("/res/:idres", index.updateres);
   app.delete("/res/:idres", index.deleteres);
+
+  // 회원가입
+  app.post("/sign-up", index.createUsers);
+  // 로그인
+  app.post("/sign-in", index.createJwt);
+  // 로그인 유지, 토큰 검증, jwtMiddleware 에서 토큰을 뽑아냄 
+  app.get("/jwt", jwtMiddleware, index.readJwt);
 };
  

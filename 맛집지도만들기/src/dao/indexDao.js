@@ -64,6 +64,28 @@ exports.deleteRes = async function (connection,  idres) {
   return rows;
 };
 
+
+//로그인용코드
+//회원가입 
+exports.insertUsers = async function (connection, userID, password, nickname) {
+  const Query = `insert into users(userid, password, nickname) values (?,?,?);`;
+  const Params = [userID, password, nickname];
+
+  const rows = await connection.query(Query, Params);
+
+  return rows;
+};
+
+//회원검증 => 해당 id와 pw를 가진 유저가 존재하는지?
+exports.isValidUsers = async function (connection, userID, password) {
+  const Query = `SELECT userid, nickname FROM users where userid = ? and password = ? and status = 'A';`;
+  const Params = [userID, password];
+
+  const rows = await connection.query(Query, Params);
+
+  return rows;
+};
+
 exports.exampleDao = async function (connection) {
   const Query = `SELECT *FROM student`; //mysql 쿼리를 적어줌 
   const Params = [];
