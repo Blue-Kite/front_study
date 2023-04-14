@@ -27,7 +27,6 @@ const styles = {
         borderRadius: "20px",
         border: "1px solid #bbb", 
     },
-    //style={styles.wrapper} <button id = "query_btn" type="submit">제출</button>
 };
 
 function SearchBar(props) {
@@ -36,7 +35,7 @@ function SearchBar(props) {
             <form name="titlesearch" style={styles.form}> 
                 <FontAwesomeIcon icon={faMagnifyingGlass} style={styles.search} />
                 <label>
-                    <input type="search" id="query" class="query_text" style={styles.query} />
+                    <input type="search" style={styles.query} />
                 </label>
                 
             </form>

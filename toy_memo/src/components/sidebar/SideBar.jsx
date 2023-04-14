@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import SidebarList from "./SidebarList";
+
 const SWrapper = styled.div`
     background: gray;
     height: 100%;
@@ -9,7 +11,9 @@ const SWrapper = styled.div`
 //width: 395px;
 function SideBar(props) {
     return (
-       <SWrapper>안녕하세요</SWrapper>
+       <SWrapper>
+        <SidebarList></SidebarList>
+       </SWrapper>
     );
 }
 

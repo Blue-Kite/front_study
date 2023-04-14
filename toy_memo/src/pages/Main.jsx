@@ -1,19 +1,12 @@
 import styled from "styled-components";
 import Header from "../components/Header";
-import SideBar from "../components/SideBar";
-import MemoList from "../components/MemoList"
+import Content from "../components/Content";
 
+//자바스크립트 객체 속성에서는 - 를 허용하지 않음
+//CSS 속성명을 캐멀케이스로 작성해야함, 값은 문자열이나 수치만 가능하다고 함 
 const styles1 = {
     Container: {
         height: "100vh"
-    },
-};
-
-const styles2 = {
-    Container: {
-        width: "100wh",
-        height: "calc(100vh - 167px)", 
-        display: 'flex'
     },
 };
 
@@ -22,10 +15,8 @@ function Main(props) {
         //JSX 규칙으로 최종적으로 한개의 태그만 반환 
         <div style={styles1.Container}>
             <Header></Header>
-            <div style={styles2.Container}>
-                <SideBar></SideBar>
-                <MemoList></MemoList>
-            </div>
+            <Content>  
+            </Content>           
         </div>        
     );
 } 

@@ -1,23 +1,19 @@
 import styled from "styled-components";
-import SearchBar from "./SearchBar";
+import ScrollMemo from "./ScrollMemo";
 
-//search bar에 absolute를 주고 싶으면 부모것에 position이 있어야해서 relative를 줌 
-const Wrapper = styled.main`
-  background: Red;
-  width: calc(100% - 395px);
-  height: 100%;
-  position: relative; 
+const SMemoList = styled.div`
+    background: yellow;
+    width: 100%;
+    height: calc(100% - 80px);
+    position: absolute;
+    top: 80px;
 `;
 
-// width: calc(100% - 395px);
 function MemoList(props) {
     return (
-        <>
-        <Wrapper>        
-          <SearchBar></SearchBar>
-        </Wrapper>
-        </>
-
+        <SMemoList>
+            <ScrollMemo></ScrollMemo>
+        </SMemoList>
     );
 }
 

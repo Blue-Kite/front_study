@@ -62,7 +62,7 @@ const Sidebar = ({ items }) => {
     return (
       <Container>
         {tree.map((subItem, index) =>
-          <Sidebaritem item={subItem} key={index} />
+          <Sidebaritem item={subItem} key={subItem.menuId} />
         )}
       </Container>
     )

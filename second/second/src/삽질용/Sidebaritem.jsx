@@ -6,6 +6,7 @@ import { HiChevronDown, HiChevronUp } from 'react-icons/hi'
 // SbItem에서 하위메뉴들을 묶어줄 div
 export const Sub = styled.div`
   overflow: hidden;
+  max-height: ${props => props.isOpen ? "100%" : "0"};
 `;
 
 // 메뉴명을 보여줄 div
@@ -21,7 +22,7 @@ export const Title = styled.div`
   }
 `;
 
-// 제일 하위메뉴에서 클릭할 Link 여기선 최하위 메뉴만 
+// 제일 하위메뉴에서 클릭할 Link 여기선 최하위 메뉴만 해당  
 export const SbLink = styled(Link)`
   color: inherit;
   text-decoration: inherit;
@@ -40,17 +41,17 @@ const Sidebaritem = ({ item, depth = 0 }) => {
     if(item.childrens.length > 0) {
         return (
             <div>
-              <Title depth={depth} onClick={toggleCollapse}> [{depth}]{item.title}{icon} </Title>
-              <div>
+              <Title depth={depth} onClick={toggleCollapse}>{item.title}{icon} </Title>
+              <Sub isOpen={collapsed}>
                 {item.childrens.map((child) => (
-                  <Sidebaritem  item={child} depth={depth + 1}/>
+                  <Sidebaritem  item={child} depth={depth + 1} key={child.menuId}/>
                 ))}
-              </div>
+              </Sub>
             </div>
         )
     }else{
         return (
-            <Title depth={depth}>[{depth}]{item.title}</Title>
+            <Title depth={depth}>{item.title}</Title>
         )
     }
   }
