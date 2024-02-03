@@ -28,6 +28,7 @@ const Payment = () => {
     //console.log(Array.isArray(ids)); : true
     executePay(ids, {
       onSuccess: () => {
+        //결제완료되면 체크박스 해제
         setCheckedCartData([]);
         alert("결제 완료되었습니다.");
         navigate("/products", { replace: true });
